@@ -44,6 +44,10 @@ The `Agent` wrapper uses the Google Generative AI Python SDK, specifically lever
 5. The `Agent` executes the corresponding Python function (or handles built-in tool calls) and sends the results back to the model using a `ToolResponse`.
 6. The model incorporates the tool results and generates the final text response.
 
+## TODO
+
+- Investigate how to detect and log Google Search tool calls
+
 ## Main Example Script
 
 See the `example.py` file for a runnable example demonstrating various features of the `Agent` wrapper, including multiple tool calls and built-in tool usage. 
